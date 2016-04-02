@@ -1,0 +1,273 @@
+*{margin: 0;padding: 0;text-decoration: none;font-size: 12px;}
+li{list-style: none;}
+.fr{float:right;
+}
+.fl{float: left;}
+
+body{background-color: #F5F5F5;}
+
+.top {
+    width: 100%;
+    height: 27px;
+    background: url(http://7xrbku.com1.z0.glb.clouddn.com/top_bg.jpg)repeat-x;
+    
+}
+
+.top_content {
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 27px;
+
+}
+.top_content li{
+    float: right;
+    width: 70px;
+    list-style-image: url(http://7xrbku.com1.z0.glb.clouddn.com/arrow.jpg);
+    
+}
+.top_content a:link,.top_content a:visitied{
+    color: #8E8E8E;
+}
+.top_content a:hover,.top_content a:active{
+    color: #c00;
+    text-decoration: none;
+}
+
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.logo {
+    height: 80px;
+    background-color: #FFF;
+    
+}
+
+.logo_left {
+width: 375px;
+display: inline;
+}
+
+.logo_right {
+    width: 300px;
+    height: 28px;
+    margin-top: 30px;
+    display: inline;
+    color: #8E8E8E;
+    
+}
+.logo_right img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.tel {
+    font-size: 22px;
+    color: red
+}
+
+.nav {
+    height: 40px;
+}
+
+.nav_left {
+width: 10px;
+background: url(http://7xrbku.com1.z0.glb.clouddn.com/nav_left.jpg)no-repeat;
+}
+
+
+
+.nav_mid {
+    width: 980px;
+    line-height: 40px;
+    background: url(http://7xrbku.com1.z0.glb.clouddn.com/nav_bg.jpg)repeat-x;
+    
+}
+
+
+
+.nav_right {
+ width: 10px;
+ background: url(http://7xrbku.com1.z0.glb.clouddn.com/nav_right.jpg)no-repeat;
+}
+
+
+.nav_left,.nav_mid,.nav_right{
+    height: 40px;
+    float: left;
+    display: inline;
+}
+
+.nav_mid li{
+    float: left;
+    list-style-type: none;
+    width: 100px;
+    text-align: center;
+}
+.nav_mid a:link, .nav_mid a:visited {
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+.nav_mid a:hover, .nav_mid a:active {
+	font-size: 16px;
+	color: #FF0;
+	text-decoration: none;
+}
+
+
+
+.search_text {
+    width: 190px;
+    height: 25px;
+    margin-top: 5px;
+    background: url(http://7xrbku.com1.z0.glb.clouddn.com/search.jpg)right center no-repeat;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    padding-right: 25PX;
+}
+
+.img img{
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title {
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+    border: 2px solid #E8E8E8;
+    margin-top: 5px;
+    color: #786F66;
+}
+.title_left{
+    float: left;
+    padding-left:10px;
+    width: 70%;}
+.title_right{
+    float: right;
+    width: 20%;
+text-align: right;}
+.title_right a{
+    color: #999;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: normal;
+    padding-right: 10px;
+}
+.pic_news{
+    height: 80px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.pic_news img,.product_list img{
+    float: left;
+    margin: 0 5px;
+}
+.pic_news a,.product_list a{
+    color: #C00;
+    text-decoration: none;
+}
+.red{
+    color: #C00;
+    font-weight: bold;
+}
+.news{
+    width: 326px;;
+    
+}
+.news_list{
+    margin-top: 20px;
+    
+}
+.news_list li{
+    line-height: 17px;
+    height: 17px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc;
+    padding-left: 10px;
+    background:url(http://7xrbku.com1.z0.glb.clouddn.com/list.jpg)no-repeat;
+}
+.news_list span{
+    float: right;
+    color: #999;
+}
+news_list a:link, .news_list a:visited {
+	text-decoration: none;
+	color: #000;
+}
+.news_list a:hover, .news_list a:active {
+	color: #F00;
+	text-decoration: none;
+}
+
+.product_list {
+    height: 120px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.product_type {
+    width: 372px;
+    height: 37px;
+    background: url(http://7xrbku.com1.z0.glb.clouddn.com/product_type_bg.jpg)no-repeat;
+    margin: 20px auto;
+}
+.product_type li{
+    list-style-type: none;
+    float: left;
+    line-height: 37px;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.products {
+   width: 410px;
+    margin: 0 2px;
+}
+.news,.products{
+    float: left;
+    display: inline;
+    height: 250px;
+    border: 1px solid #8E8E8E;
+}
+
+.sidebar {
+    width: 230px;
+    float:right;
+    display: inline;
+    height: 250px;
+    overflow: hidden;
+    border: 1px solid #8E8E8E;
+        
+}
+
+.copyright {
+    clear: both;
+    width: 100%;
+    height: 200px;
+    background-color: #E8E8E8;
+    margin-top: 10px;
+}
+
+.copyright_content {
+    width: 1000px;
+    height: 180px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.copyright_content li{
+  float: left;
+    text-align: center;
+    width: 200px;
+    background: url("http://7xrbku.com1.z0.glb.clouddn.com/line.png")no-repeat right center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #999;}
+
+.copyright_content li ul li{
+    font-size: 14px;
+}
