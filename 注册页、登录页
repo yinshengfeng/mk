@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎登录</title>
+    <link rel="stylesheet" href="welocome.css">
+</head>
+<body>
+    <div class="head clearfix">
+        <div class="wrap">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/2.png" alt="慕课网">
+            <h1>欢迎登录</h1>
+        </div>
+    </div>
+    <div class="box">
+        <ul class="box_list">
+            <li class="email">邮箱/用户名/已验证手机</li>
+            <li>
+                <input type="text" class="username">
+            </li>
+            <li class="pass1">密码</li>
+            <li><input type="text" class="password"></li>
+            <li class="login">
+                <input type="checkbox" class="checkbox">自动登录
+                <input type="checkbox" class="checkbox">安全控件登录<a href="#">忘记密码?</a>
+                
+            </li>
+            <li class="btn"><input type="button" value="登 录" class="button"></li>
+        </ul>
+       <p class="p">使用合作网站账号登录</p>
+        <ul class="qq">
+            <li><a href="#">QQ</a></li>
+            <li><a href="#">网易</a></li>
+            <li><a href="#">奇虎360</a></li>
+            <li><a href="#">开心</a></li>
+            <li><a href="#">豆府</a></li>
+            <li><a href="#">搜狐</a></li>
+            <li><a href="#">更多</a>&forall;</li>
+        </ul>
+        
+    </div>
+    <div class="wrap">
+            <input type="text" class="btn2" value="免费注册&gt&gt" >
+
+    </div>
+    
+    
+    
+        <div class="logoBox">
+            <ul class="logolist">
+                <li><span><i>*</i>账户名：</span><input type="text" class="logoinput"></li>
+                <li><span><i>*</i>请设置密码：</span><input type="text" class="logoinput"></li>
+                <li><span><i>*</i>请确认密码：</span><input type="text" class="logoinput"></li>
+                <li><span><i>*</i>邮箱：</span><input type="text" class="logoinput"></li>
+                <li><span><i>*</i>地址：</span><input type="text" class="logoinput"></li>
+                
+            </ul>
+            <p class="logo_ch"><input type="checkbox" class="checkbox">我已经阅读并同意<a href="#">《用户注册协议》</a></p>
+            <input type="button" value="提交" class="btn3">
+    </div>
+   
+</body>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border: 0;
+}
+.clearfix:after{content:"";display:block;clear:both;}
+
+.clearfix{zoom:1;}
+.head{
+    height: 84px;
+    width: 100%;
+    background: #1d7ad9;
+}
+.wrap{width: 462px;margin: 0 auto;}
+
+.wrap img{
+    float: left;
+    margin-top: 2px;
+    
+}
+.wrap h1{color: white;
+    line-height: 84px;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    padding-left: 22px;
+    
+}
+.box{
+    width: 460px;
+    height: 356px;
+    border: 1px solid #e1e1e1;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+.box_list{
+    padding: 40px 66px 20px 85px;
+    
+}
+.email{
+    font-size: 12px;
+    color: #999999;
+    line-height: 18px;
+}
+.pass1{
+    font-size: 12px;
+    color: #999999;
+    line-height: 18px;
+    margin-top: 8px;
+}
+.username{
+    width: 298px;
+    height: 30px;
+    padding: 0 5px;
+    border: 2px solid #cccccc;
+    background: url("http://7xrbku.com1.z0.glb.clouddn.com/23.png")no-repeat right center;
+}
+.password{
+    width: 298px;
+    height: 30px;
+    padding: 0 5px;
+    border: 2px solid #cccccc;
+    background: url("http://7xrbku.com1.z0.glb.clouddn.com/24.png")no-repeat right center;
+}
+.login{
+    margin-top: 24px;
+    
+}
+a{
+    color: black;
+    font-size: 14px;
+    padding-left: 12px;
+    
+}
+.checkbox{
+    width: 14px;
+    height: 14px;
+}
+.button{
+    width: 306px;
+    height: 34px;
+    background: #cccccc;
+    margin-top: 26px;
+}
+.p{
+    font-size: 12px;
+    color: #cccccc;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.qq{
+    position: absolute;
+    left: 85px;
+    bottom: 20px;
+}
+.qq li{
+    float: left;
+    color: #CCCCCC;
+  
+
+}
+
+.qq li a{
+    font-size: 12px;
+    color: #CCCCCc;
+}
+.btn2{
+    width: 114px;
+    height: 32px;
+    background: #7cbe56;
+    text-align: center;
+    color: white;
+    position:relative;
+    left: 304px;
+    top: 0;
+}
+
+.logoBox{
+    width: 630px;
+    height: 576px;
+    border: 1px solid  #e1e1e1;
+    margin: 0 auto;
+    padding: 66px 150px 56px 132px;
+}
+i{
+    color: red;
+    position:relative;
+    left: -20px;
+    
+ }
+span{
+font-family: "宋体";
+font-size: 14px;
+color: #999999;
+text-align: right;
+    margin-left: 160px;
+    display: inline-block;
+    width: 98px;
+   
+}
+.logoinput{
+    width: 258px;
+    height: 36px;
+    padding: 0 5px;
+    border: 1px solid #e1e1e1;
+}
+.logolist li{
+    margin-top: 30px;
+ 
+}
+.logo_ch{
+    margin: 0 auto;
+    margin-top: 18px;
+    font-size: 12px;
+    padding-left: 250px;
+    vertical-align: middle;
+
+}
+.logo_ch a{
+    color: blue;
+    font-size: 12px;
+}
+.btn3{
+    margin: 0 auto;
+    width: 270px;
+    height: 36px;
+    margin-top: 32px;
+    margin-left: 250px;
+    background: #e1e1e1;
+}
+.checkbox{vertical-align: middle;}
+
+    </style>
+</html>
+
+
+
+
+
+
+
+
+
+
