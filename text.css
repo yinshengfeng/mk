@@ -1,0 +1,207 @@
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+dl,
+dd,
+form,
+input,
+textarea,
+select {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.head {
+    width: 960px;
+    margin: 0 auto;
+    background: #1b0401;
+    height: 30px;
+    line-height: 30px;
+}
+
+.head_fl li {
+    float: left;
+    padding-right: 18px;
+    margin-right: 15px;
+}
+
+.head_fl li a {
+    font-size: 13px;
+    font-family: Arial;
+    color: #c0c0c0;
+    display: block;
+}
+.no_dot { background:none; padding:0; margin:0; }
+.head_fl {
+    float: left;
+}
+
+.head_fr {
+    float: right;
+}
+
+.head_fl li a:hover {
+    color: white;
+}
+
+.head_fr li {
+    float: left;
+    font-size: 13px;
+    font-family: Arial;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.phone{
+    background: url("http://7xrbku.com1.z0.glb.clouddn.com/31.png")no-repeat 8px -16px;
+   padding: 0 38px;
+}
+
+.help {
+    background: url("http://7xrbku.com1.z0.glb.clouddn.com/31.png")no-repeat 0 -52px;
+    color: white;
+    padding:0  38px;
+}
+
+.head_fr img {
+    padding-left: 22px;
+   margin-right: 12px;
+}
+
+body{background: #fff url("http://7xrbku.com1.z0.glb.clouddn.com/34.png")repeat-x;}
+#header{width: 960px;height: 100px;position: relative;background: url("http://7xrbku.com1.z0.glb.clouddn.com/39.png");margin: 0 auto;}
+#shopping{width: 260px;height: 100px;background: url("http://7xrbku.com1.z0.glb.clouddn.com/35.png")no-repeat;position: relative;}
+#shopping p{color: #f7f7f7;font-size: 20px;font-family: Arial;padding:  30px 0 0 84px;}
+#shopping a{width: 114px;height: 23px;display: block;background: url("http://7xrbku.com1.z0.glb.clouddn.com/35.png")no-repeat 0 -100px;position: absolute;top: 63px;
+left: 104px;font-size: 15px;color: #ffc200;text-decoration: none;font-weight: bold;text-align: center;line-height: 23px;}
+
+
+.logo{width: 238px;position: absolute;
+        top: 30px;left: 50%;margin-left: -119px;}
+
+
+#nav{
+    line-height: 44px;
+    height: 44px;
+     width: 960px;
+    margin: 0 auto;
+}
+
+.wrap{
+    margin: 0 auto;width: 960px;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+    display: block;
+    margin-right: 36px;
+    margin-left: -10px;
+    text-decoration: none;
+}
+#nav li a:hover{
+    background-color: hotpink;
+}
+
+#ad{
+    width: 940px;
+    height: 300px;
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+    
+}
+#ad ul{position: absolute;top: 0;left: 0;z-index: 1;}
+#ad li{position:absolute;top: 0;left: 0;}
+
+#ad h2{width: 268px; position: absolute;left: 0;bottom: 13px;z-index: 3;text-align: center;font-size: 25px;font-weight: bold;color: #ffc600;margin-bottom: 1px;}
+
+#ad p{ position: absolute;left: 0;bottom:7px;;z-index: 3;color: #ffcccc;font-size: 13px;left: 268px;line-height: 16px; width: 630px;}
+
+#ad .bg { width:940px; height:52px; background:#000; filter:alpha(opacity:80); opacity:0.8; position:absolute; bottom:0; left:0; z-index:2; }
+
+#main{
+    width: 942px;margin: 0 auto;
+    
+}
+
+#side{width: 210px;float: left;padding-top: 30px;}
+#main_wrap{
+    width: 706px;
+    float: right;
+}
+
+.module_menu{}
+.module_menu h2{height: 29px;background: url("http://7xrbku.com1.z0.glb.clouddn.com/43.png")repeat-x 0 -58px;text-align: center;font-size: 15px;line-height: 29px;}
+
+.module_menu h2 strong{height: 29px;display: block;
+background: url("http://7xrbku.com1.z0.glb.clouddn.com/43.png")no-repeat;}
+
+.module_menu h2 span{
+            display: block;height: 29px;background: url("http://7xrbku.com1.z0.glb.clouddn.com/43.png")no-repeat right -29px;
+}
+
+.list{
+    background: url("http://7xrbku.com1.z0.glb.clouddn.com/45.gif")repeat-y;padding-top: 18px;
+}
+.list ul{
+     background: url("http://7xrbku.com1.z0.glb.clouddn.com/45.gif")no-repeat -210px bottom;
+}
+.list li {
+     line-height: 30px;
+    text-align: left;
+    padding: 0 8px;
+    
+}
+.list li a{
+    display: block;
+   font-size: 12px;
+    font: Arial;
+    color: black;
+    height: 27px;
+    line-height: 27px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 32px;
+}
+.list li a:hover{
+    border-bottom: 1px solid #b20e00;
+    color: #b20e00;
+}
