@@ -63,7 +63,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit lacus dapibus ante mattis in adipiscing nibh placerat. Cras bibendum porta diam, non dignissim sapien malesuada vitae. </p>
             <div class="bg"></div>
         </div>
-
+    </div>
+    <div class="wrap2">
         <div id="main clear">
             <div id="side">
                 <div class="module_menu">
@@ -85,25 +86,176 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            
-            
-            <div class="module_join">
-                <div class="module_join_t">
-                    
+
+                <div class="module_join">
+                    <div class="module_join_t">
+                        <div class="module_join_b">
+                            <div class="Join_form">
+                                <p>Join our newsletter list to get the latest updates</p>
+                                <form action="#">
+                                    <input type="text" class="text">
+                                    <input type="submit" value="Join Now" class="btn">
+                                </form>
+                            </div>
+                            <ul class="join_list">
+                                <li class="space1">Follow us no Twitter</li>
+                                <li class="space2">Become our fan on Facebook</li>
+                                <li class="space3">Connect with us on LinkedIn</li>
+                                <li class="space4">Send us your email enquiries.</li>
+                            </ul>
+                        </div>
+                        <img src="http://7xrbku.com1.z0.glb.clouddn.com/47.gif" alt="">
+
+                    </div>
                 </div>
             </div>
-            
-            
-            
-            <div id="main_wrap">333</div>
+
+            <div id="main_wrap">
+
+
+                <h2 class="title">OUR PRODUCTS</h2>
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/46.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/47.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/48.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean shop_r">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/49.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+
+
+
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/46.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/47.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/48.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean shop_r">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/49.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+
+
+
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/46.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/47.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/48.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+
+                <div class="shop_list clean shop_r">
+                    <img src="http://7xrbku.com1.z0.glb.clouddn.com/49.jpg" alt="">
+                    <h4>Product Name</h4>
+                    <p>Price: <span>$12.99</span></p>
+                </div>
+            </div>
         </div>
 
 
+
+
     </div>
+
+    <div class="hello">1211</div>
+    <div class="foot">
+        <div class="foot_head wrap">
+            <p class="p1">Shop online with us safely & securely</p>
+            <p class="p2">We ship your orders anywhere!</p>
+        </div>
+        <div class="foot_ft">
+            <div class="wrap">
+              <dl>
+        	<dt>Company</dt>
+            <dd><a href="#">Home</a></dd>
+            <dd><a href="#">About Us</a></dd>
+            <dd><a href="#">Blog</a></dd>
+            <dd><a href="#">Latest News</a></dd>
+            <dd><a href="#">Login</a></dd>
+            <dd><a href="#">Join Us</a></dd>
+        </dl>
+    	<dl class="pos">
+        	<dt>Categories</dt>
+            <dd><a href="#">Lorem ipsum dolor sit</a></dd>
+            <dd><a href="#">Amet consectetur</a></dd>
+            <dd><a href="#">Adipiscin elit</a></dd>
+            <dd><a href="#">Cras suscipit lacus</a></dd>
+            <dd><a href="#">Dapibus ante mattis</a></dd>
+            <dd><a href="#">Adipiscing nibh placerat</a></dd>
+        </dl>
+    	<dl>
+        	<dt>Information</dt>
+            <dd><a href="#">My Account</a></dd>
+            <dd><a href="#">Rewards</a></dd>
+            <dd><a href="#">Terms & Conditions</a></dd>
+            <dd><a href="#">Buying Guide</a></dd>
+            <dd><a href="#">FAQ</a></dd>
+        </dl>
+    	<dl>
+        	<dt>Social Network</dt>
+            <dd><a href="#">My Account</a></dd>
+            <dd><a href="#">Rewards</a></dd>
+            <dd><a href="#">Terms & Conditions</a></dd>
+            <dd><a href="#">Buying Guide</a></dd>
+            <dd><a href="#">FAQ</a></dd>
+        </dl>
+    	<dl>
+        	<dt>Contact Us</dt>
+            <dd><a href="#">Phone: 1.234.567.8901</a></dd>
+            <dd><a href="#">Toll-Free: 1.234.567.8901</a></dd>
+            <dd><a href="#">Fax: 1.234.567.8901</a></dd>
+            <dd><a href="#">Email:<span>Send us an email</span></a></dd>
+            <dd class="space"><a href="#">MON - SAT 9am to 7:30pm</a></dd>
+            <dd><a href="#">Sundays, holidays closed</a></dd>
+        </dl>
+
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
-
-
-
