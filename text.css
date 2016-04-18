@@ -161,7 +161,7 @@ left: 104px;font-size: 15px;color: #ffc200;text-decoration: none;font-weight: bo
     
 }
 
-#side{width: 210px;float: left;padding-top: 30px;}
+#side{width: 210px;float: left;;}
 #main_wrap{
     width: 706px;
     float: right;
@@ -205,3 +205,152 @@ background: url("http://7xrbku.com1.z0.glb.clouddn.com/43.png")no-repeat;}
     border-bottom: 1px solid #b20e00;
     color: #b20e00;
 }
+
+.Join_form p{
+    font-size: 15px;
+    font-family: Arial;
+    color: #f54343;
+    margin-top: 15px;
+    padding-top: 12px;
+}
+.module_join_b{
+    padding: 15px 12px 12px 12px;
+    background: #f5f5f2;
+}
+
+.module_join{width: 210px;}
+
+.module_join_t{
+    
+}
+.Join_form .text{
+    width: 168px;
+    height: 25px;
+    padding: 0 5px;
+    margin-top: 14px;
+}
+.Join_form .btn{
+    width: 86px;
+    height: 26px;
+    background: #f84d4d;
+    border: none;
+    margin-top: 8px;
+    margin-left: 44px;
+}
+.join_list li{
+    font-size: 13px;
+    font-family: Arial;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid pink;
+  
+    text-indent: 10px;
+    
+}
+.join_list .span1{
+    
+}
+.module_join_t img{
+    margin-top: 30px;
+   padding-left: 17px;
+}
+
+#main_wrap{
+    float: left;
+    margin-left: 24px;
+    width: 714px;
+}
+.wrap2{width: 960px;margin: 0 auto;
+    margin-top: 30px;}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #666666;
+}
+.parent{
+    margin-left: -20px;
+}
+.shop_list{
+    margin-top: 14px;
+    float: left;
+    margin-right: 28px;
+    margin-bottom: 42px;
+
+}
+.shop_list h4{
+    font-size: 15px;
+    font-family: Arial;
+    color: #666666;
+    padding-top: 8px;
+}
+
+.shop_list img{
+    border: 1px solid #666666;
+}
+.shop_list p{
+    font-size: 13px;
+    padding-top: 4px;
+}
+.shop_list span{
+    color: red;
+}
+.shop_r{
+    margin-right: 0;
+}
+
+.foot{
+    bottom: 0;
+    left: 0;
+    height: 300px;
+}
+.hello{
+    width: 700px;
+    height: 270px;
+    display: inline-block;
+}
+.foot{
+    background: #1d0200;
+}
+.foot_head{
+height: 60px;
+color: white;
+line-height: 60px;}
+
+.foot_head p{display: inline-block;}
+
+.p1{
+background: url("http://7xrbku.com1.z0.glb.clouddn.com/55.png")no-repeat 0 4px; text-indent: 60px;}
+.p2{
+    background: url("http://7xrbku.com1.z0.glb.clouddn.com/55.png")no-repeat 0 -52px;
+    text-indent: 50px;margin-right: 25px;
+}
+.foot_ft{
+    height: 240px;
+    background: #a01603;
+    color: #ffffff;
+
+}
+.foot_ft dl{
+    float: left;
+    width: 184px;
+}
+.foot_ft dt{
+    font-size: 15px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+}
+.foot_ft dd{
+    line-height: 20px;
+    
+}
+.foot_ft a{
+    font-size: 12px;
+    color: #cfcfcf;
+}
+.foot_ft .space{padding-top: 20px;}
+
+.foot_ft .pos{position: relative;
+        left: -20px;}
