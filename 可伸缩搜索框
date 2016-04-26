@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <form action="#" method="post" class="search1">
+            <label for="search"></label>
+            <input type="search" id="search" name="search" placeholder="search">
+        </form>
+    </header>
+</body>
+<style>
+    *{margin: 0;padding: 0;
+}
+    header{
+        font-family: arial;
+        display: block;
+        overflow: hidden;
+        width: 300px;
+        margin: 30px;
+        border-radius: 6px;
+        background-color: #ddd;
+    }
+    .search1{
+        float: right;
+        width: 200px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .search1 input{
+        float: right;
+        width: 70px;
+        padding: 2px 0 3px 5px;
+        font-size: .8em;
+        border-color: #eee;
+        border-radius: 10px;
+        -webkit-transition:2s width;
+    }
+    .search1 input:focus{width: 200px; }
+    .search1 label{display: none;}
+    </style>
+</html>
