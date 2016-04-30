@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	
+		<input type="button" id="btn"  value="自动生成DIV"/>
+		<div id="div1"></div>
+	
+</body>
+<script type="text/javascript">
+			window.onload=function(){
+				var div1=document.getElementById('div1')
+				var btn=document.getElementById('btn')
+				var str=''
+				var len=100
+				btn.onclick=function(){
+					for(var i=0;i<len;i++){
+		str+='<div style="position: absolute;top: '+Math.floor(i/10)*54+'px;left:'+i%10*54+'px;height: 50px;width:50px;background: red;">'+i+'</div>'
+			div1.innerHTML=str
+					
+					
+					}
+				}
+			}
+</script>
+<style type="text/css">
+	#div1{position: relative;}
+</style>
+</html>
