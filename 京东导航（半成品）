@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jidong</title>
+</head>
+<body>
+        <ul class="topmenu">
+
+            <div class="toptitle">全部商品分类</div>
+            <li><a href="#">图书、音像、数字商品</a><i>&gt;</i>
+                <div class="submenu">
+                    <div class="leftdiv">
+                        <dl>
+                            <dt><a href="#">电子书</a></dt>
+                            <dd>
+                                <a href="#">免费</a>
+                                <a href="#">小说</a>
+                                <a href="#">励志与成功</a>
+                                <a href="#">文学</a>
+                                <a href="#">经管</a>
+                                <a href="#">畅读VIP</a>
+                            </dd>
+
+                        </dl>
+                        <dl>
+                            <dt><a href="#">数字音乐</a></dt>
+                            <dd>
+                                <a href="#">通谷流行</a><a href="#">古典音乐</a>
+                                <a href="#">农村民族</a><a href="#">有声读物</a>
+
+                            </dd>
+                            <dl>
+                                <dt><a href="#">音像</a></dt>
+                                <dd>
+                                    <a href="#">音乐</a><a href="#">影视</a><a href="#">教育音像</a>
+                                    <a href="#">游戏</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">文艺</a></dt>
+                                <dd>
+                                    <a href="#">小说</a><a href="#">文学</a><a href="#">青春文学</a>
+                                    <a href="#">传记</a><a href="#">艺术</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">人文社科</a></dt>
+                                <dd>
+                                    <a href="#">历史</a> <a href="#">心理学</a> <a href="#">政治/军事</a> <a href="#">国学/古籍</a>
+                                    <a href="#">哲学/宗教</a> <a href="#">社会科学</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">经管励志</a></dt>
+                                <dd>
+                                    <a href="#">经济</a> <a href="#">金融与投资</a> <a href="#">管理</a> <a href="#">励志与成功</a>
+                                </dd>
+                            </dl>
+
+                      </dl>
+
+                    </div>
+                    <div class="rightdiv">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2242/178/2511566210/2362/1b27a3c/5708334dN24ec1feb.jpg" alt="">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2242/178/2511566210/2362/1b27a3c/5708334dN24ec1feb.jpg" alt="">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2242/178/2511566210/2362/1b27a3c/5708334dN24ec1feb.jpg" alt="">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2242/178/2511566210/2362/1b27a3c/5708334dN24ec1feb.jpg" alt="">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2242/178/2511566210/2362/1b27a3c/5708334dN24ec1feb.jpg" alt="">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2242/178/2511566210/2362/1b27a3c/5708334dN24ec1feb.jpg" alt="">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2242/178/2511566210/2362/1b27a3c/5708334dN24ec1feb.jpg" alt="">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2242/178/2511566210/2362/1b27a3c/5708334dN24ec1feb.jpg" alt="">
+                        <img src="http://img13.360buyimg.com/vclist/jfs/t2881/187/815599247/15163/c95448a9/572802d7N1d163722.jpg" alt="">
+                        <img src="http://img14.360buyimg.com/vclist/jfs/t2713/222/885096826/8241/c0594467/572a99f7Nb539c8be.jpg" alt="">
+                    </div>
+
+                    </div>
+                </div>
+            </li>
+            <li><a href="#">家用电器</a><i>&gt;</i>
+                <div class="submenu">
+                    <div class="leftdiv">
+                        <dl>
+                            <dt><a href="#">电子书</a></dt>
+                            <dd>
+                                <a href="#">免费</a>
+                                <a href="#">小说</a>
+                                <a href="#">励志与成功</a>
+                                <a href="#">文学</a>
+                                <a href="#">经管</a>
+                                <a href="#">畅读VIP</a>
+                            </dd>
+
+                        </dl>
+                        <dl>
+                            <dt><a href="#">数字音乐</a></dt>
+                            <dd>
+                                <a href="#">通谷流行</a><a href="#">古典音乐</a>
+                                <a href="#">农村民族</a><a href="#">有声读物</a>
+
+                            </dd>
+                            <dl>
+                                <dt><a href="#">音   像</a></dt>
+                                <dd>
+                                    <a href="#">音乐</a><a href="#">影视</a><a href="#">教育音像</a>
+                                    <a href="#">游戏</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">文艺</a></dt>
+                                <dd>
+                                    <a href="#">小说</a><a href="#">文学</a><a href="#">青春文学</a>
+                                    <a href="#">传记</a><a href="#">艺术</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">人文社科</a></dt>
+                                <dd>
+                                    <a href="#">历史</a> <a href="#">心理学</a> <a href="#">政治/军事</a> <a href="#">国学/古籍</a>
+                                    <a href="#">哲学/宗教</a> <a href="#">社会科学</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="#">经管励志</a></dt>
+                                <dd>
+                                    <a href="#">经济</a> <a href="#">金融与投资</a> <a href="#">管理</a> <a href="#">励志与成功</a>
+                                </dd>
+                            </dl>
+
+                        </dl>
+
+                    </div>
+                    <div class="rightdiv">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t2176/358/849877519/2001/3cb2806f/562f4971Na5379aba.jpg" alt="">
+                        <img src="http://img11.360buyimg.com/vclist/jfs/t745/301/749830018/3039/9c96d09e/54d9eef9N5bb8d27f.jpg" alt="">
+                        <img src="http://img13.360buyimg.com/vclist/jfs/t643/241/1441917153/1991/b7f68956/54d9ef10Nd206a236.jpg" alt="">
+                        <img src="http://img14.360buyimg.com/vclist/jfs/t703/273/787686128/2436/5299f29d/54d9ef28N00328d44.jpg" alt="">
+                        <img src="http://img12.360buyimg.com/vclist/jfs/t700/76/767891003/1472/c20aa630/54d9ef4cN4fe57f9b.jpg" alt="">
+                        <img src="http://img10.360buyimg.com/vclist/jfs/t820/181/3448454/2372/cbfc2389/54d9ef34N7cc61f4c.jpg" alt="">
+                        <img src="http://img13.360buyimg.com/vclist/jfs/t643/241/1441917153/1991/b7f68956/54d9ef10Nd206a236.jpg" alt="">
+                        <img src="http://img14.360buyimg.com/vclist/jfs/t703/273/787686128/2436/5299f29d/54d9ef28N00328d44.jpg" alt="">
+                        <img src="http://img13.360buyimg.com/vclist/jfs/t2188/329/2140154297/5836/1dd93fa2/56aed295N3547d62e.jpg" alt="">
+                        <img src="http://img14.360buyimg.com/vclist/jfs/t2713/222/885096826/8241/c0594467/572a99f7Nb539c8be.jpg" alt="">
+                    </div>
+
+            </li>
+            <li><a href="#">手机、数码</a><i>&gt;</i></li>
+            <li><a href="#">电脑、办公</a><i>&gt;</i></li>
+            <li><a href="#">家居、家具、家装、厨具</a><i>&gt;</i></li>
+            <li><a href="#">服饰内衣、珠宝首饰</a><i>&gt;</i></li>
+            <li><a href="#">个性化妆</a><i>&gt;</i></li>
+            <li><a href="#">鞋靴、箱包、钟表、奢侈品</a><i>&gt;</i></li>
+            <li><a href="#">运动户外</a><i>&gt;</i></li>
+            <li><a href="#">汽车用品</a><i>&gt;</i></li>
+            <li><a href="#">母婴、玩具乐器</a><i>&gt;</i></li>
+            <li><a href="#">食品饮料、酒类、生鲜</a><i>&gt;</i></li>
+            <li><a href="#">营养保健</a><i>&gt;</i></li>
+            <li><a href="#">理财、众？、白条、保险</a><i>&gt;</i></li>
+            <li><a href="#">彩票、旅行、充值、票务</a><i>&gt;</i></li>
+        </ul>
+</body>
+<style>
+    *{
+        padding:0;
+        margin: 0;
+        text-decoration: none;
+        font-size: 16px;}
+
+    .topmenu{
+        display: block;
+        width:220px;
+        border: 2px solid #e4393c;
+        background: #b61d1d;
+        border-right: none;
+    }
+    .toptitle{
+        height: 40px;
+        line-height: 40px;
+        text-align: left;
+        font-weight:bold;
+        color: white;
+        background: #c81623;
+        padding-left: 20px;
+
+    }
+    .topmenu li{
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        list-style: none;
+        padding-left:8px;
+        z-index: 3;
+        position: relative;
+
+
+
+
+    }
+    .topmenu li a{
+        color: #FFF;
+        display: block;
+        cursor: auto;
+        font-family: "微软雅黑";
+    }
+    .topmenu li:hover .submenu{
+        display: block;
+    }
+    .topmenu li a:hover{
+        color: red;
+    }
+    .topmenu li:hover{
+
+        background-color: white;
+        box-shadow:  0 0 8px #DDD;
+    }
+    i{  font-style: normal;
+        position: absolute;
+        right: 6px;
+        font: 400 9px/14px consolas;
+        color: white;
+        font-weight: bold;
+        z-index: 8;
+        display: inline;
+        top: 8px;
+    }
+    .submenu{
+        position: absolute;
+        width: 720px;
+        height: 450px;
+        left: 220px;
+        top: 0px;
+        border: 1px solid #DDD;
+        z-index: 4;
+        box-shadow: 0 0 8px 0 #DDD;
+        -moz-box-shadow:0 0 8px #DDD ;
+        -webkit-box-shadow: 0 0 8px #DDD;
+        border-left: none;
+        display: none;
+    }
+    .leftdiv{
+        float: left;
+        width: 486px;
+    }
+    .rightdiv{
+        float: right;
+        width: 168px;
+        margin: 8px;
+
+    }
+    .rightdiv img{
+        padding-left: 1px;
+        float: left;
+        padding-bottom: 1px;
+    }
+
+    .leftdiv dl{
+        display: block;
+        border-bottom: 1px solid #EEE;
+        overflow: hidden;
+        padding-bottom: 6px;
+
+
+    }
+    .leftdiv dl dt a{
+        color: black;
+        font-size: 12pt;
+
+
+    }
+    .leftdiv dl dt{
+        display: block;
+        float: left;
+        width:60px;
+        text-align: right;
+        height: 22px;
+        line-height: 22px;
+        padding-right: 6px;
+
+    }
+    .leftdiv dl dt a{
+        color: #e4393c;
+        font-weight: bold;
+        display: block;
+        font-size: 12px;
+        text-decoration: none;
+        width:80px;
+        text-align: center;
+        float: left;
+
+
+
+    }
+    .leftdiv dl dd{
+        display: block;
+        overflow: hidden;
+        margin-left: 80px;
+
+
+    }
+    .leftdiv dl dd a{
+        float: left;
+        display: block;
+        border-left: 1px solid #CCC;
+        color: #333333;
+        font-size: 9pt;
+        padding: 0 8px;
+        line-height: 14px;
+        height:14px;
+        margin:4px 0;
+    }
+</style>
+</html>
