@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <style>
+        *{margin:0;padding:0;}
+        .list{margin:30px auto 0; width:300px; border:1px solid #ccc;}
+        h3{height:24px; line-height:24px; border-bottom:1px solid #ccc; background:#ccc; color:#000; font-size:14px;padding-left:10px;}
+        ul,li{list-style:none;}
+        ul{clear:both;display:inline-block;padding:5px 0;}
+        li{border-bottom:1px dashed #ccc; line-height:30px; color:#333; font-size:12px;cursor:pointer;padding:0 10px; clear:both;}
+        li dl{padding-left:20px;line-height:22px; display:none; }
+        li dl dt,li dl dd{float:left;}
+        li dl dt{width:70px;height:70px;border:1px solid #ccc;margin-right:5px;}
+        li dl dd span{display:block;line-height:36px;}
+        li dl dd span i{color:#F36;font-style:normal;font-weight:bold;}
+        li.lastnon{border:0;}
+        li ins{width:20px;height:20px;background:#ccc;line-height:20px;text-align:center;color:#fff; display:inline-block; zoom:1; text-decoration:none;margin-right:5px;}
+        li ins.onactive{background:#F96;}
+    </style>
+
+
+</head>
+
+<body>
+<div class="list">
+    <h3>阅读榜</h3>
+    <ul id="nav">
+        <li><ins>☆</ins>舌尖上的中国：传世美味炮制完全攻略
+            <dl>
+                <dt><img src="http://img.mukewang.com/52c91a8c0001ae7c00700070.jpg"/></dt>
+                <dd>
+                    <span>作者：本书编写组</span>
+                    <span>价格：<i>¥8.94</i></span>
+                </dd>
+            </dl>
+        </li>
+        <li class="lastnon"  ><ins>☆</ins>完全图解狗的心理(每天读一点)
+            <dl>
+                <dt><img src="http://img.mukewang.com/52c91ab000014f9900700070.jpg" /></dt>
+                <dd>
+                    <span>作者：林乐毅</span>
+                    <span>价格：<i>¥1.99</i></span>
+                </dd>
+            </dl>
+        </li>
+        <li class="lastnon"><ins>☆</ins>左手婚姻，右手爱情(经营婚姻)
+            <dl>
+                <dt><img src="http://img.mukewang.com/52c91ace0001df5600700070.jpg" /></dt>
+                <dd>
+                    <span>作者：赫本的眼睛</span>
+                    <span>价格：<i>¥2.00</i></span>
+                </dd>
+            </dl>
+        </li>
+    </ul>
+</div>
+</body>
+<script src="999.js">
+    
+
+
+
+    var  list=document.getElementById('nav').getElementsByTagName('li')
+
+
+    var  odl=document.getElementById('nav').getElementsByTagName('dl')
+
+
+    for(var i=0;i<list.length;i++){
+
+        list[i].indenx=i
+
+        list[i].onmouseover=function () {
+            for(var j=0;j<odl.length;j++){
+                odl[j].indenx=j
+                odl[this.indenx].style.display='block'
+            }
+        }
+
+        list[i].onmouseout=function () {
+            for(var j=0;j<odl.length;j++){
+                odl[j].indenx=j
+                odl[this.indenx].style.display='none'
+            }
+        }
+    }
+    
+</script>
+</html>
