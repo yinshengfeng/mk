@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contents">
+        <div class="txtshow"><span id="timeShow"></span></div>
+    </div>
+</body>
+<script>
+    window.onload=function () {
+        var curtime=new Date()
+        var endtime=new Date("2016,6,12")
+        var lefttime=Math.ceil((endtime.getTime()-curtime.getTime())/(24*60*60*1000))
+
+        document.getElementById('timeShow').innerHTML=lefttime
+    }
+</script>
+</html>
