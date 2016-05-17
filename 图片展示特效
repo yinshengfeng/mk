@@ -1,0 +1,104 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片展示特效</title>
+    
+</head>
+<body>
+    
+    <div class="picList" id="picList">
+        
+        <div class="col" id="pic1">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/17.jpg" alt="">
+            <a href="#">学会HTML5 绝对的屌丝逆袭<br>
+                本课程由浅入深，逐步推进，以示例为主线，详细完整地介绍HTML5的新功能与新特征
+            </a>
+
+        </div>
+        
+        
+        <div class="col" id="pics">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/18.jpg" alt="">
+            <a href="#"> 圆角水晶按钮制作 <br>
+                网页中的圆角按钮和宽度自适应按钮就这么轻松制作!
+                
+            </a>
+            
+        </div>
+        
+        
+        <div class="col" id="pic3">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/19.jpg" alt="">
+            <a href="#">导航条菜单的制作<br>
+                30分钟教你轻松制作出各种形式的网站导航条菜单
+            </a>
+        </div>
+    </div>
+</body>
+<style>
+
+    *{padding: 0;margin: 0;text-decoration: none;font-size: 14px;}
+    img{border: 0px;}
+
+    .picList{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col{
+        width: 300px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+    margin: 10px 0 0 10px;}
+
+    .col img,.col a{
+        position: absolute;
+        left:0px;
+        top: 0px;
+    }
+    .col img{
+        width: 100%;
+    }
+    .col a{
+        display: block;
+        width: 280px;
+        height: 180px;
+        top:160px;
+        background: #000;
+        color: white;
+        font-style: normal;
+        line-height: 25px;
+        padding: 10px;
+        opacity: 0.8;
+        text-decoration: none;
+
+    }
+</style>
+<script>
+    function imgDisplay() {
+        var oDiv=document.getElementById('picList').getElementsByTagName('div')
+        var divHeight=160
+
+        for(var i=0;i<oDiv.length;i++){
+            oDiv[i].onmouseover=showMeg
+            oDiv[i].onmouseout=hideMeg
+
+        }
+        function  showMeg() {
+
+            this.getElementsByTagName('a')[0].style.top=0
+        }
+
+        function  hideMeg() {
+            this.getElementsByTagName('a')[0].style.top=divHeight+'px';
+        }
+    }
+    imgDisplay()
+
+</script>
+</html>
