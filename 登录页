@@ -1,0 +1,49 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="wrap">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/2.png" alt="">
+            <h1>欢迎登录</h1>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="main">
+            <form action="" class="form">
+                <p class="text">邮箱/用户名/已验证手机</p>
+                <input type="text" name="username" class="username">
+                <p class="password_user">密码</p>
+                <input type="text" name="password" class="username">
+
+            </form>
+            <div class="btn"><input type="checkbox">自动登录 <input type="checkbox">安全控件登录
+                <a href="#">忘记密码?</a> </div>
+
+            <input type="button" value="登 录" class="login">
+            <p class="friend">使用合作账号登录</p>
+            <ul class="nav">
+                <li><a href="#">QQ</a>|</li>
+                <li><a href="#">网易</a>|</li>
+                <li><a href="#">人人</a>|</li>
+                <li><a href="#">奇虎360</a>|</li>
+                <li><a href="#">开心</a>|</li>
+                <li><a href="#">豆？</a>|</li>
+                <li><a href="#">搜狐</a>|</li>
+                <li><a href="#">更多</a>&gt;</li>
+            </ul>
+        </div>
+        <button>免费注册</button>
+    </div>
+
+
+</body>
+</html>
