@@ -1,0 +1,106 @@
+
+
+
+*{margin: 0;padding: 0;}
+
+
+
+
+.header{
+    width: 100%;
+    height:86px;
+    background: #1D7AD9;
+
+}
+.wrap{
+    width: 1010px;
+    margin: 0 auto;
+}
+.header img{
+    float: left;
+    padding-top: 10px;
+}
+.header h1{
+    color: white;
+    line-height: 86px;
+}
+.main{
+    width: 460px;
+    height: 356px;
+    border: 1px solid #CCC;
+    margin-top: 10px;
+}
+.form{
+    padding-left: 86px;
+    padding-top: 40px;
+}
+.form .text{
+    color: #999999;
+    font-size: 14px;
+
+}
+.username{
+    width:302px;
+    height:32px;
+    border: 1px solid #999999;
+    margin-top: 4px;
+}
+.password_user{
+    color: #999999;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.btn{
+    padding-left: 86px;
+    color: #000;
+    padding-top: 22px;
+}
+.btn a{
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 12px;
+}
+.btn input{
+    padding-right: 15px;
+}
+.login{
+    width: 310px;
+    height: 37px;
+    color: #d3d3d4;
+    margin-top: 28px;
+    margin-left: 86px;
+
+}
+.friend{
+    font-size: 14px;
+    margin-top: 30px;
+    padding-left: 86px;
+    color: #999999;
+
+}
+.nav{
+    list-style: none;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-left: 86px;
+
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    text-decoration: none;
+    color: #999999;
+
+}
+button{
+    width: 115px;
+    height: 32px;
+    background: #7cbe56;
+    color: #fff;
+    position: relative;
+    margin-left: 305px;
+
+}
