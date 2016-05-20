@@ -1,0 +1,64 @@
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>回到顶部效果</title>
+</head>
+<body>
+        <div class="box">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/tb_bg.jpg" alt="">
+        </div>
+        <a href="javascript:;" id="btn"></a>
+</body>
+<style>
+    *{margin: 0;padding: 0;}
+    .box{
+        width: 1190px;
+        margin: 0 auto;
+    }
+    
+    #btn{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        left: 50%;
+        bottom: 50px;
+        background: url("http://7xrbku.com1.z0.glb.clouddn.com/top_bg.png")no-repeat
+        left top;
+        margin-left: 595px;
+    }
+    #btn:hover{
+        background: url("http://7xrbku.com1.z0.glb.clouddn.com/top_bg.png")left -40px;
+    }
+
+
+</style>
+<script>
+    //页面加载完毕后触发
+    window.onload=function () {
+        var btn=document.getElementById('btn')
+
+
+
+
+            btn.onclick=function (){
+
+
+                    var osTop=document.documentElement.scrollTop||document.body.scrollTop
+
+                    document.documentElement.scrollTop=document.body.scrollTop=0                        }
+
+
+
+            }
+
+        
+
+
+
+
+</script>
+</html>
