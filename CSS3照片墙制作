@@ -1,0 +1,156 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3照片墙</title>
+</head>
+<body>
+    <h1>照片墙制作</h1>
+        <div class="container">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm1.jpg" alt="" class="pic1">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm2.jpg" alt="" class="pic2">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm3.jpg" alt="" class="pic3">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm4.jpg" alt="" class="pic4">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm5.jpg" alt="" class="pic5">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm6.jpg" alt="" class="pic6">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm7.jpg" alt="" class="pic7">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm8.jpg" alt="" class="pic8">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm9.jpg" alt="" class="pic9">
+            <img src="http://7xrbku.com1.z0.glb.clouddn.com/mm10.jpg" alt="" class="pic10">
+        </div>
+</body>
+<style>
+
+    h1{text-align: center;
+        }
+    .container{width: 960px;height: 450px;margin: 60px auto;}
+
+    img{
+        padding: 10px 10px 15px;
+        background: #fff;
+        border: 1px solid #ddd;
+        position: absolute;
+        left:200px;
+        top: 180px;
+        transform:rotate(20deg);
+        -moz-transform: rotate(20deg);
+        -webkit-transform: rotate(20deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+
+
+    }
+
+    img:hover{
+        transform:rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transition: 2s;
+        -moz-animation: 2s;
+        -webkit-transition: 2s;
+        transform: scale(1.2);
+        box-shadow: 10px 10px 15px #CCC;
+        z-index: 99;
+
+    }
+
+    .pic2{
+        left:400px;
+        top: 520px;
+        transform:rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+
+    }
+    .pic3{
+        left:600px;
+        top: 320px;
+        transform:rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+
+    }
+
+    .pic4{
+        left:900px;
+        top: 220px;
+        transform:rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+
+    }
+    .pic5{
+        left:200px;
+        top: 420px;
+        transform:rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+    }
+    .pic6{
+        left:400px;
+        top: 220px;
+        transform:rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+    }
+    .pic7{
+        left:670px;
+        top: 220px;
+        transform:rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+    }
+.pic8{
+    left:900px;
+    top: 520px;
+    transform:rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -webkit-transform: rotate(1deg);
+    transition: 2s;
+    -moz-transition: 2s;
+    -webkit-transition: 2s;
+}
+
+    .pic9{
+        left:1280px;
+        top: 320px;
+        transform:rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+    }
+    .pic10{
+        left:1280px;
+        top: 90px;
+       transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform:rotate(0deg);
+        transition: 2s;
+        -moz-transition: 2s;
+        -webkit-transition: 2s;
+    }
+</style>
+</html>
