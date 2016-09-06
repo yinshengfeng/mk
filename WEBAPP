@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+
+    <title>慕课网2015课程学习情况</title>
+
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            font-size: 12px;
+        }
+
+        .iphone{
+            width: 340px;
+            height: 540px;
+            background-color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: -270px 0 0 -170px;
+        }
+    </style>
+
+    <script type="text/javascript" src="../js/lib/jquery.js"></script>
+    <script type="text/javascript" src="../js/H5ComponentBase.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/H5ComponentBase.css">
+
+    <body>
+        <!-- 用于开发测试 H5ComponentBase 对象（基本的图文组件） -->
+        <div class="iphone">
+
+        </div>
+
+        <script type="text/javascript">
+            
+            var cfg = {
+                
+                type: 'base',
+                
+                bg:'./p1_people.png',
+                
+                text: '',
+                
+                height:306,
+                
+                width:514,
+                
+                css:{
+                    left:50,
+                  
+                    top:50
+                },
+                
+                center:true,
+                
+               
+            }
+            
+           var h5 = new H5ComponentBase('myName',cfg)
+           
+           $('.iphone').append(h5)
+    
+        </script>
+
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 基本图文组件对象 */
+
+ 
+
+     
+     var H5ComponentBase=function (name,cfg){
+         
+         var cfg = cfg || {}
+         
+         var id=('h5_c_'+Math.random()).replace('.','_');
+         
+         //把当前的组建类型添加到样式中进行标记
+         var cls='h5_component_'+cfg.type+'h5_component_name'+name;
+        
+         var component=$('<div class="h5_component" id="'+id+'">')
+         
+         //如果cfg里面有某个参数的话，就把参数给写进去
+         
+         cfg.text && component.text(cfg.text);
+         
+         cfg.width && component.width(cfg.width/2);
+         
+         cfg.height && component.height(cfg.height/2);
+         
+         cfg.css && component.css(cfg.css)
+         
+         cfg.bg && component.css('backgroundImage','url('+cfg.bg+')');
+         
+        if(cfg.center===true){
+            component.css({
+                
+                marginLeft:(cfg.width/4*-1)+'px',
+                
+                left:'50%'
+            })
+        }
+         
+         //.....很多自定义的参数
+         return component
+     }
+     
+     
+/* 基本图文组件样式 */
+
+ .h5_component{
+    background-size:100%;
+    background-repeat:no-repeat;
+    position:absolute;
+}
